@@ -113,6 +113,10 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="homepage.aspx.cs">
+          <SubType>ASPXCodeBehind</SubType>
+          <DependentUpon>homepage.aspx</DependentUpon>
+        </Compile>
         <Compile Include="Properties\AssemblyInfo.cs"/>
         <Compile Include="Site1.Master.cs">
           <SubType>ASPXCodeBehind</SubType>
@@ -2253,6 +2257,7 @@
         <Content Include="fontawesome\webfonts\fa-v4compatibility.ttf" />
         <Content Include="fontawesome\webfonts\fa-v4compatibility.woff2" />
         <Content Include="fonts\glyphicons-halflings-regular.svg" />
+        <Content Include="homepage.aspx" />
         <Content Include="imgs\books.webp" />
         <Content Include="Scripts\bootstrap.js" />
         <Content Include="Scripts\bootstrap.min.js" />
